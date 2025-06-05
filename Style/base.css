@@ -70,7 +70,7 @@
 
 /* Выбор рабочего места */
 
-.space-title h2 {
+.space-title h3 {
 	font-weight: 400;
 	font-size: 27px;
 	line-height: 111%;
@@ -80,5 +80,22 @@
 	font-weight: 400;
 	font-size: 13px;
 	letter-spacing: 0.11em;
+
 	text-transform: uppercase;
+}
+
+/* Стандартный заголовок для оставшихся разделов страницы! */
+
+.default-title h2 {
+	font-weight: 400;
+	font-size: 33px;
+	line-height: 200%; /* Расстояние между строками */
+}
+
+.default-title p {
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 0.05em;
+
+	color: var(--text-transparent-color);
 }
