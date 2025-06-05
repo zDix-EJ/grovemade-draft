@@ -2,7 +2,7 @@
 	font-family: var(--maine-font), sans-serif;
 	color: var(--text-color);
 }
-
+/* Header */
 .navigate {
 	font-weight: 400;
 	font-size: 13px;
@@ -18,4 +18,52 @@
 
 	text-transform: uppercase;
 	text-align: right;
+}
+
+/* Hero */
+
+.hero-title h1 {
+	color: var(--maine-color);
+	font-weight: 400;
+	font-size: 43px;
+	line-height: 107%;
+}
+
+.hero-title p {
+	color: var(--maine-color);
+	font-weight: 380;
+	font-size: 15px;
+	letter-spacing: 0.05em;
+}
+
+.hero-title a {
+	color: var(--maine-color);
+	font-weight: 380;
+	font-size: 13px;
+	letter-spacing: 0.11em;
+}
+
+/* Контент страницы */
+
+/* Вдохновляющий дизайн */
+
+.inspires h1 {
+	font-weight: 400;
+	font-size: 43px;
+	line-height: 135%;
+}
+
+.inspires p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 171%;
+	letter-spacing: 0.06em;
+}
+
+.inspires a {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 162%;
+	letter-spacing: 0.11em;
+	text-transform: uppercase;
 }
