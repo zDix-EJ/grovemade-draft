@@ -70,29 +70,27 @@
 	height: 670px;
 
 	background-image: url(/Img/title/shelf-system.png);
-	background-size: 100% 100%;
+	background-size: cover;
 
 	position: relative;
 }
 
 .hero-title {
 	text-align: center;
-	position: absolute;
+
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+
+	position: absolute;
 }
 
 .hero-title h1 {
 	padding-bottom: 12px;
-
-	text-align: center;
 }
 
 .hero-title p {
 	padding-bottom: 24px;
-
-	text-align: center;
 }
 
 .hero-title a {
@@ -166,8 +164,62 @@
 }
 
 /* Настройка конкретного заголовка */
-
 .Featured {
 	margin-top: 120px;
 	margin-bottom: 40px;
+}
+/* Слайдер */
+
+/* Домашний офис */
+
+.office-bg {
+	width: 100%;
+	min-width: 1440px;
+	height: 670px;
+
+	background-image: url(/Img/title/home-office.png);
+	background-size: cover;
+
+	position: relative;
+}
+
+.office-title {
+	text-align: center;
+
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+	position: absolute;
+}
+
+.office-title p {
+	padding-bottom: 30px;
+}
+
+/* Трудный путь */
+
+/* Настройка стандартного заголовка */
+.way {
+	width: 1116px;
+	height: 126px;
+
+	margin: auto;
+	margin-top: 120px;
+	margin-bottom: 24.14px;
+
+	text-align: center;
+}
+
+.hard-way-img {
+	display: block;
+	margin: auto;
+}
+
+/* Значимая работа */
+
+/* Настройка стандартного заголовка */
+.meaningful {
+	margin-top: 42.28px;
+	margin-bottom: 80px;
 }
