@@ -100,6 +100,26 @@
 	color: var(--text-transparent-color);
 }
 
+/* Слайдер */
+
+.slide h4 {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 162%;
+	letter-spacing: 0.05em;
+
+	color: var(--text-transparent-color);
+}
+
+.slide p {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 175%;
+	letter-spacing: 0.06em;
+
+	color: var(--text-transparent-color);
+}
+
 .office-title h1 {
 	color: var(--maine-color);
 	font-weight: 380;
@@ -120,23 +140,4 @@
 	font-size: 13px;
 	letter-spacing: 0.11em;
 	text-transform: uppercase;
-}
-/* Слайдер */
-
-.slide h4 {
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 162%;
-	letter-spacing: 0.05em;
-
-	color: var(--text-transparent-color);
-}
-
-.slide p {
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 175%;
-	letter-spacing: 0.06em;
-
-	color: var(--text-transparent-color);
 }
