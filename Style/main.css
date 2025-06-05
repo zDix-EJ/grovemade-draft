@@ -349,3 +349,65 @@ input[type='radio'] {
 .inspires-bottom-icon {
 	margin: auto;
 }
+
+/* Footer */
+
+/* Основной */
+.footer {
+	background-color: var(--footer-color);
+}
+
+.footer-box {
+	display: flex;
+	gap: 12.5px;
+
+	justify-content: flex-start;
+
+	padding-top: 80px;
+	margin-bottom: 80px;
+
+	position: relative;
+}
+
+.menu-list {
+	display: grid;
+	gap: 16px;
+}
+
+.newsletter {
+	position: relative;
+}
+
+.newsletter::before {
+	content: ' ';
+	background: #000;
+	width: 320px;
+	height: 1px;
+
+	bottom: 65px;
+	position: absolute;
+}
+
+.newsletter h4 {
+	padding-bottom: 23px;
+}
+
+.go-icon {
+	position: absolute;
+	top: 0;
+	right: 12.5px;
+}
+
+/* Доп. информация */
+
+.by-list {
+	display: flex;
+	gap: 37px;
+	justify-content: flex-end;
+
+	padding-bottom: 20px;
+}
+
+.by-list li a {
+	color: var(--inspires-color);
+}

@@ -102,7 +102,7 @@
 
 /* Слайдер */
 
-.slide h4 {
+.slide h5 {
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 162%;
@@ -180,3 +180,26 @@
 	line-height: 171%;
 	letter-spacing: 0.06em;
 }
+
+/* Footer */
+
+/* Основной */
+
+.menu-list {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 109%;
+}
+
+.newsletter h4 {
+	font-weight: 400;
+	font-size: 22px;
+}
+.newsletter p {
+	color: var(--text-transparent-color);
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.06em;
+}
+
+/* Доп. информация */
