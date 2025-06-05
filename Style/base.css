@@ -1,0 +1,21 @@
+* {
+	font-family: var(--maine-font), sans-serif;
+	color: var(--text-color);
+}
+
+.navigate {
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.11em;
+
+	text-transform: uppercase;
+}
+
+.cart {
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+
+	text-transform: uppercase;
+	text-align: right;
+}
