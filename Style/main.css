@@ -168,9 +168,82 @@
 	margin-top: 120px;
 	margin-bottom: 40px;
 }
+
 /* Слайдер */
 
-/* Домашний офис */
+/* Общий контейнер */
+
+.slider-box {
+	display: flex;
+	justify-content: center;
+
+	margin-bottom: 100px;
+}
+/* Контейнер окошек */
+
+.slider {
+	width: 1340px; /* Ширина дизайна */
+	overflow: hidden;
+	position: relative;
+}
+
+/* Все слайды (Лента)*/
+.slides {
+	display: flex; /* Располагаем слайды в ряд */
+
+	width: 100%; /* Делаем ширину в четыре раза больше (по количеству слайдов) */
+	transition: transform 0.5s ease-in-out; /* Плавное переключение слайдов */
+
+	gap: 25px;
+}
+
+/* Настройка товара */
+.slide {
+	display: grid;
+	gap: 22px;
+
+	flex-shrink: 0; /* отключение уменьшения элементов внутри flex-контейнера */
+}
+
+/* Прячу радио (нужны для управления) */
+input[type='radio'] {
+	display: none;
+}
+
+/* Переключение слайдов при выборе радиокнопки */
+/* Нулевая точка */
+#slide1:checked ~ .slides {
+	transform: translateX(0%);
+} /* Первая точка */
+#slide2:checked ~ .slides {
+	transform: translateX(-100%);
+} /* Вторая точка */
+#slide3:checked ~ .slides {
+	transform: translateX(-200%);
+} /* Третья точка */
+#slide4:checked ~ .slides {
+	transform: translateX(-300%);
+}
+
+/* Контейнер для точек управления */
+.controls {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+
+	margin-bottom: 19px;
+}
+
+/* Стиль точек переключения */
+.controls label {
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+
+	background: #3a3a3a;
+
+	cursor: pointer;
+}
 
 .office-bg {
 	width: 100%;
