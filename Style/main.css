@@ -296,3 +296,27 @@ input[type='radio'] {
 	margin-top: 42.28px;
 	margin-bottom: 80px;
 }
+
+/* Участники */
+
+.team {
+	width: 1365px;
+	height: 1193px;
+	margin: auto;
+}
+
+.member-container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 25px 27px;
+}
+
+.member-item {
+	filter: saturate(90%);
+	transition: filter 0.5s;
+}
+
+.member-item:hover {
+	filter: saturate(150%);
+}
