@@ -320,3 +320,32 @@ input[type='radio'] {
 .member-item:hover {
 	filter: saturate(150%);
 }
+
+/* Присоединяйся */
+
+/* Дизайн вдохновляет */
+.bottom {
+	height: 404px;
+
+	margin: 0 12.5px;
+	margin-bottom: 39px;
+
+	position: relative;
+
+	background-color: var(--inspires-color);
+}
+
+.inspires-title-bottom {
+	display: grid;
+	gap: 24px;
+
+	position: absolute;
+
+	left: 50%;
+	top: 53%;
+	transform: translate(-50%, -50%);
+}
+
+.inspires-bottom-icon {
+	margin: auto;
+}

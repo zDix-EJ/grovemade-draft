@@ -141,3 +141,42 @@
 	letter-spacing: 0.11em;
 	text-transform: uppercase;
 }
+
+/* Присоединяйся */
+
+.join {
+	margin-top: 96px;
+	margin-bottom: 120px;
+}
+
+.join h2 {
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 256%;
+}
+
+.join a {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 162%;
+	letter-spacing: 0.11em;
+
+	text-transform: uppercase;
+}
+
+/* Дизайн вдохновляет */
+
+.inspires-title-bottom h2 {
+	color: var(--maine-color);
+	font-weight: 400;
+	font-size: 43px;
+	line-height: 135%;
+}
+
+.inspires-title-bottom p {
+	color: var(--maine-color);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 171%;
+	letter-spacing: 0.06em;
+}
