@@ -1,0 +1,15 @@
+:root {
+	/* Шрифты */
+	--maine-font: Roboto;
+
+	/* Цвета */
+
+	--maine-color: #fff;
+
+	--text-color: #000;
+	--text-transparent-color: #a0a0a0;
+	--text-title-color: #fff;
+
+	--size-last-titles: 34px;
+	--size-description-text: 16px;
+}
