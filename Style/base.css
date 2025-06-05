@@ -67,3 +67,18 @@
 	letter-spacing: 0.11em;
 	text-transform: uppercase;
 }
+
+/* Выбор рабочего места */
+
+.space-title h2 {
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 111%;
+}
+
+.space-title p {
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.11em;
+	text-transform: uppercase;
+}

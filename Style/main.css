@@ -133,3 +133,26 @@
 	text-transform: uppercase;
 	text-align: center;
 }
+
+/* Выбор типа рабочего места */
+
+.work-spaces {
+	display: flex;
+	justify-content: center;
+}
+.custom-img {
+	padding: 0 12.5px;
+}
+
+.spaces {
+	display: grid;
+	gap: 51px;
+}
+
+.space-title {
+	text-align: center;
+}
+
+.space-title h2 {
+	padding-bottom: 23px;
+}
