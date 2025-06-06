@@ -3,6 +3,66 @@
 	color: var(--text-color);
 }
 
+/* Цвет выделения */
+::selection {
+	background-color: var(--text-transparent-color); /* Цвет фона */
+	color: var(--text-color); /* Цвет текста при выделении */
+}
+/* Анимация для ссылок основной части страницы */
+
+.white-line:after {
+	background-color: white; /* Белая полоса */
+}
+.black-line:after {
+	background-color: black; /* Черная полоса */
+}
+
+.btn {
+	position: relative;
+	cursor: pointer;
+}
+
+.btn:after {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 1px;
+	content: '';
+	transition: width 0.5s ease-out, left 0.5s ease-out;
+	transform: translateX(-50%);
+	/* сдвиг влево на 50% для центрирования*/
+}
+
+.btn:hover:after,
+.btn:focus:after {
+	width: 100%; /* Ссылка подчёркивается полностью */
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* Анимация для ссылок footer'а */
+.footer-btn {
+	position: relative;
+	cursor: pointer;
+}
+.footer-btn:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background-color: black;
+	content: '';
+	transition: width 0.5s ease-out;
+}
+
+.footer-btn:hover:after,
+.footer-btn:focus:after {
+	width: 100%; /* Ссылка подчёркивается полностью */
+}
+
 /* Header */
 
 .navigate {
@@ -120,6 +180,12 @@
 	letter-spacing: 0.06em;
 
 	color: var(--text-transparent-color);
+}
+
+/* Изменение текста при наведении на товар */
+.slide:hover h5,
+.slide:hover p {
+	color: var(--text-color);
 }
 
 .office-title h1 {

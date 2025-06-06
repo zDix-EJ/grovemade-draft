@@ -191,6 +191,7 @@
 
 .slider {
 	width: 1340px; /* Ширина дизайна */
+	height: 530px;
 	overflow: hidden;
 	position: relative;
 }
@@ -216,6 +217,14 @@
 	gap: 22px;
 
 	flex-shrink: 0; /* отключение уменьшения элементов внутри flex-контейнера */
+
+	transition: transform 0.3s ease-in-out;
+}
+
+/* Наведение на картинку */
+.slide:focus,
+.slide:hover {
+	transform: scale(1.05);
 }
 
 /* Прячу радио (нужны для управления) */
@@ -409,8 +418,13 @@ input[type='radio'] {
 	position: absolute;
 	top: 0;
 	right: 12.5px;
+
+	transition: transform 0.5s ease-in-out;
 }
 
+.go-icon:hover {
+	transform: scale(0.9);
+}
 /* Доп. информация */
 
 .by-list {
@@ -423,4 +437,10 @@ input[type='radio'] {
 
 .by-list li a {
 	color: var(--inspires-color);
+
+	transition: color 0.5s;
+}
+
+.by-list li a:hover {
+	color: var(--text-color);
 }
