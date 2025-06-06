@@ -2,7 +2,9 @@
 	font-family: var(--maine-font), sans-serif;
 	color: var(--text-color);
 }
+
 /* Header */
+
 .navigate {
 	font-weight: 400;
 	font-size: 13px;
