@@ -63,7 +63,6 @@
 
 	/* Hard way*/
 	.default-title p {
-		width: 600px;
 		margin: 0 auto;
 	}
 
@@ -79,5 +78,108 @@
 	/* footer */
 	.by-list {
 		justify-content: center;
+	}
+}
+
+@media (max-width: 768px) {
+	/* Head */
+	.custom-hero-bg {
+		margin-top: 57px;
+	}
+	.container {
+		justify-content: center;
+		padding: 20px 37.5px;
+	}
+	.navigate {
+		display: none;
+	}
+	.cart {
+		display: none;
+	}
+	/* Hero */
+	.hero-title {
+		margin-top: 15px;
+	}
+
+	.hero-title h1 {
+		font-size: 25px;
+		width: 300px;
+	}
+
+	.hero-title p {
+		font-size: 14px;
+		padding-bottom: 15px;
+	}
+
+	.hero-title a {
+		font-size: 13px;
+	}
+
+	/* Office */
+	.office-title h1 {
+		font-size: 25px;
+	}
+
+	.office-title p {
+		font-size: 14px;
+		padding-bottom: 15px;
+
+		width: 400px;
+	}
+
+	.office-title a {
+		font-size: 13px;
+	}
+	/* Hard Way */
+	.default-title br {
+		display: none;
+	}
+	/* Work */
+	.meaningful {
+		margin-bottom: 60px;
+	}
+	/* Team */
+	.team {
+		padding: 0;
+	}
+	/* Footer */
+}
+
+@media (max-width: 425px) {
+	.form-box {
+		display: grid;
+		gap: 15px;
+		width: 100px;
+	}
+
+	.newsletter p {
+		padding-bottom: 75px;
+	}
+
+	.menu-list {
+		font-size: 20px;
+	}
+
+	.border {
+		text-align: center;
+		width: 100px;
+		justify-self: right;
+		margin: 0 20px;
+	}
+
+	.go-icon {
+		left: 313px;
+		width: 60px;
+	}
+
+	.by-list {
+		display: flex;
+		gap: 37px;
+		justify-content: center;
+		padding-bottom: 20px;
+	}
+
+	.by-list li a {
+		font-size: 12px;
 	}
 }
