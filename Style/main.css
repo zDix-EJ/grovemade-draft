@@ -3,6 +3,7 @@
 @import url(/Style/reset.css);
 @import url(/Style/root.css);
 @import url(/Style/base.css);
+@import url(/Style/burger-menu.css);
 
 /* Подключение шрифта */
 
@@ -58,6 +59,9 @@
 	padding: 6px 42.5px;
 }
 
+.burger {
+	display: none;
+}
 /* Hero секция */
 
 .hero-section {

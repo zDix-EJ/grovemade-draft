@@ -82,7 +82,15 @@
 }
 
 @media (max-width: 768px) {
-	/* Head */
+	/* Header */
+
+	.burger {
+		display: block;
+		position: fixed;
+		right: 50px;
+	}
+
+	/* Hero */
 	.custom-hero-bg {
 		margin-top: 57px;
 	}
@@ -146,6 +154,13 @@
 }
 
 @media (max-width: 425px) {
+	/* Header */
+
+	.burger {
+		right: 25px;
+	}
+
+	/* Footer */
 	.form-box {
 		display: grid;
 		gap: 15px;
