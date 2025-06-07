@@ -198,3 +198,43 @@
 		font-size: 12px;
 	}
 }
+
+@media (max-width: 375px) {
+	.newsletter p {
+		padding-bottom: 55px;
+	}
+	.go-icon {
+		left: 277px;
+	}
+}
+
+@media (max-width: 320px) {
+	/* Head */
+	.burger {
+		right: 60px;
+	}
+	.container {
+		justify-content: flex-start;
+	}
+
+	/* Footer */
+	.newsletter::before {
+		display: none;
+	}
+	.newsletter p {
+		padding-bottom: 15px;
+	}
+	.from {
+		width: 160px;
+
+		border-bottom: 1px solid var(--inspires-color);
+		padding-bottom: 5px;
+	}
+	.go-icon {
+		left: 222px;
+	}
+
+	.by-list {
+		gap: 17px;
+	}
+}
