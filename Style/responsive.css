@@ -46,3 +46,38 @@
 		width: 100%;
 	}
 }
+
+@media (max-width: 768px) {
+	/* Hero */
+	.hero-title {
+		top: 60%;
+	}
+	/* Office */
+	.office-title h1 {
+		line-height: 100%;
+		padding-bottom: 15px;
+	}
+	.office-title p {
+		padding-bottom: 20px;
+	}
+
+	/* Hard way*/
+	.default-title p {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	/* Work */
+	.meaningful br {
+		display: none;
+	}
+	/* Join */
+	.join {
+		margin-top: 56px;
+		margin-bottom: 100px;
+	}
+	/* footer */
+	.by-list {
+		justify-content: center;
+	}
+}
