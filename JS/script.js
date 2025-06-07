@@ -9,3 +9,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		})
 	})
 })
+
+/* Прозрачность шапки */
+
+window.addEventListener('scroll', function () {
+	let header = document.getElementById('head')
+	let scrollTop = window.pageYOffset || document.documentElement.scrollTop
+	header.style.opacity = 1 - scrollTop / 200
+})
