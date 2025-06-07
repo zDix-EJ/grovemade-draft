@@ -94,7 +94,7 @@
 }
 
 .hero-title p {
-	padding-bottom: 24px;
+	padding-bottom: 40px;
 }
 
 .hero-title a {
@@ -238,13 +238,10 @@ input[type='radio'] {
 	transform: translateX(0%);
 } /* Первая точка */
 #slide2:checked ~ .slides {
-	transform: translateX(-100%);
+	transform: translateX(-98.5%);
 } /* Вторая точка */
 #slide3:checked ~ .slides {
-	transform: translateX(-200%);
-} /* Третья точка */
-#slide4:checked ~ .slides {
-	transform: translateX(-300%);
+	transform: translateX(-197.2%);
 }
 
 /* Контейнер для точек управления */
@@ -287,7 +284,7 @@ input[type='radio'] {
 }
 
 .office-title p {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 /* Трудный путь */
@@ -336,17 +333,19 @@ input[type='radio'] {
 
 .member-item {
 	filter: saturate(90%);
-	transition: filter 0.5s;
+	transition: filter 0.5s, transform 0.5s ease-in-out;
 }
 
 .member-item:hover {
-	filter: saturate(150%);
+	filter: saturate(140%);
+	transform: scale(1.1);
 }
 
 /* Присоединяйся */
 
 /* Дизайн вдохновляет */
-.bottom {
+.inspires-bottom {
+	text-align: center;
 	height: 404px;
 
 	margin: 0 12.5px;
@@ -364,7 +363,7 @@ input[type='radio'] {
 	position: absolute;
 
 	left: 50%;
-	top: 53%;
+	top: 50%;
 	transform: translate(-50%, -50%);
 }
 

@@ -87,21 +87,21 @@
 .hero-title h1 {
 	color: var(--maine-color);
 	font-weight: 400;
-	font-size: 43px;
+	font-size: 54px;
 	line-height: 107%;
 }
 
 .hero-title p {
 	color: var(--maine-color);
 	font-weight: 380;
-	font-size: 15px;
+	font-size: 18px;
 	letter-spacing: 0.05em;
 }
 
 .hero-title a {
 	color: var(--maine-color);
 	font-weight: 380;
-	font-size: 13px;
+	font-size: 18px;
 	letter-spacing: 0.11em;
 }
 
@@ -191,21 +191,21 @@
 .office-title h1 {
 	color: var(--maine-color);
 	font-weight: 380;
-	font-size: 66px;
-	line-height: 106%;
+	font-size: 88px;
+	line-height: 140%;
 }
 
 .office-title p {
 	color: var(--maine-color);
 	font-weight: 380;
-	font-size: 14px;
+	font-size: 18px;
 	letter-spacing: 0.06em;
 }
 
 .office-title a {
 	color: var(--maine-color);
 	font-weight: 380;
-	font-size: 13px;
+	font-size: 17px;
 	letter-spacing: 0.11em;
 	text-transform: uppercase;
 }
@@ -234,14 +234,14 @@
 
 /* Дизайн вдохновляет */
 
-.inspires-title-bottom h2 {
+.inspires-bottom h2 {
 	color: var(--maine-color);
 	font-weight: 400;
 	font-size: 43px;
 	line-height: 135%;
 }
 
-.inspires-title-bottom p {
+.inspires-bottom p {
 	color: var(--maine-color);
 	font-weight: 400;
 	font-size: 14px;
