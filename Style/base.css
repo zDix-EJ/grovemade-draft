@@ -1,5 +1,5 @@
 * {
-	font-family: var(--maine-font), sans-serif;
+	font-family: var(--main-font), sans-serif;
 	color: var(--text-color);
 }
 
@@ -85,21 +85,21 @@
 /* Hero */
 
 .hero-title h1 {
-	color: var(--maine-color);
+	color: var(--main-color);
 	font-weight: 400;
 	font-size: 54px;
 	line-height: 107%;
 }
 
 .hero-title p {
-	color: var(--maine-color);
+	color: var(--main-color);
 	font-weight: 380;
 	font-size: 18px;
 	letter-spacing: 0.05em;
 }
 
 .hero-title a {
-	color: var(--maine-color);
+	color: var(--main-color);
 	font-weight: 380;
 	font-size: 17px;
 	letter-spacing: 0.11em;
@@ -191,22 +191,22 @@
 /* Офис */
 
 .office-title h1 {
-	color: var(--maine-color);
+	color: var(--main-color);
 	font-weight: 400;
 	font-size: 53px;
 	line-height: 140%;
 }
 
 .office-title p {
-	color: var(--maine-color);
+	color: var(--main-color);
 	font-weight: 380;
 	font-size: 18px;
 	letter-spacing: 0.06em;
 }
 
 .office-title a {
-	color: var(--maine-color);
-	font-weight: 380;
+	color: var(--main-color);
+	font-weight: 400;
 	font-size: 17px;
 	letter-spacing: 0.11em;
 	text-transform: uppercase;
@@ -237,14 +237,14 @@
 /* Дизайн вдохновляет */
 
 .inspires-bottom h2 {
-	color: var(--maine-color);
+	color: var(--main-color);
 	font-weight: 400;
 	font-size: 43px;
 	line-height: 135%;
 }
 
 .inspires-bottom p {
-	color: var(--maine-color);
+	color: var(--main-color);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 171%;
@@ -275,7 +275,7 @@
 /* Форма */
 
 .submit {
-	color: var(--maine-color);
+	color: var(--main-color);
 	font-weight: 400;
 	font-size: 14px;
 	letter-spacing: 0.06em;
