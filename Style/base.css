@@ -270,4 +270,13 @@
 	letter-spacing: 0.06em;
 }
 
+/* Форма */
+
+.submit {
+	color: var(--maine-color);
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.06em;
+}
+
 /* Доп. информация */

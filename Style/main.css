@@ -402,7 +402,7 @@ input[type='radio'] {
 .newsletter::before {
 	content: ' ';
 	background: #000;
-	width: 320px;
+	width: 210px;
 	height: 1px;
 
 	bottom: 65px;
@@ -411,6 +411,42 @@ input[type='radio'] {
 
 .newsletter h4 {
 	padding-bottom: 23px;
+}
+
+.newsletter p {
+	padding-bottom: 65px;
+}
+
+/* Настройка формы */
+
+.form-box {
+	display: flex;
+}
+
+.from {
+	padding: 0 25px;
+	opacity: 0.5;
+}
+
+.border {
+	border: 1px solid black;
+	background-color: #000;
+
+	transition: transform all;
+}
+
+.border:active {
+	transform: scale(0.9);
+}
+
+.submit {
+	padding: 10px 10px;
+
+	transition: transform all;
+}
+
+.submit:active {
+	transform: scale(0.95);
 }
 
 .go-icon {
