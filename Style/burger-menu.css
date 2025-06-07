@@ -53,12 +53,16 @@ nav.menu.active {
 nav.menu a {
 	display: block;
 	padding: 15px 20px;
+
+	font-family: var(--main-font);
+	font-size: 18px;
+	letter-spacing: 0.2em;
 	color: white;
+
 	text-decoration: none;
 	border-bottom: 1px solid lightgray;
-	font-size: 18px;
 }
 
 nav.menu a:hover {
-	background-color: #555;
+	background-color: #55555546;
 }
