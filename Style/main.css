@@ -392,7 +392,6 @@ input[type='radio'] {
 
 	justify-content: flex-start;
 
-	padding-top: 80px;
 	margin-bottom: 80px;
 
 	position: relative;
@@ -457,10 +456,25 @@ input[type='radio'] {
 	transform: scale(0.95);
 }
 
+.go-box {
+	display: flex;
+	justify-content: right;
+}
+
 .go-icon {
-	position: absolute;
+	width: 82px;
+	height: 82px;
+}
+
+.go-link {
+	width: 82px;
+	height: 82px;
+}
+
+.custom-go-icon {
+	/* position: absolute;
 	top: 0;
-	right: 12.5px;
+	right: 12.5px; */
 
 	transition: transform 0.5s ease-in-out;
 }

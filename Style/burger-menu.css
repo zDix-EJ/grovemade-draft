@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .burger {
 	width: 30px;
 	height: 25px;
@@ -67,69 +66,3 @@ nav.menu a {
 nav.menu a:hover {
 	background-color: #55555546;
 }
-=======
-.burger {
-	width: 30px;
-	height: 25px;
-	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.burger div {
-	height: 4px;
-	background-color: gray;
-	border-radius: 2px;
-	transition: 0.3s;
-	margin: 3px 0;
-}
-
-/* Анимация кнопки в активном состоянии */
-.burger.active div:nth-child(1) {
-	transform: rotate(45deg) translate(5px, 5px);
-}
-.burger.active div:nth-child(2) {
-	opacity: 0;
-}
-.burger.active div:nth-child(3) {
-	transform: rotate(-45deg) translate(5px, -5px);
-}
-
-/* Выпадающее меню */
-nav.menu {
-	position: fixed;
-	top: 56px; /* от шапки */
-	left: 0;
-	right: 0;
-
-	text-align: center;
-
-	background-color: #303030f3;
-
-	overflow: hidden;
-
-	max-height: 0;
-
-	transition: max-height 0.3s ease;
-
-	z-index: 999;
-}
-
-nav.menu.active {
-	max-height: 240px;
-}
-
-nav.menu a {
-	display: block;
-	padding: 15px 20px;
-	color: white;
-	text-decoration: none;
-	border-bottom: 1px solid lightgray;
-	font-size: 18px;
-}
-
-nav.menu a:hover {
-	background-color: #555;
-}
->>>>>>> 21d3df959de0de171235dd4d29f0a137cd3340f1
