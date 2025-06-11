@@ -131,8 +131,6 @@
 	.office-title p {
 		font-size: 14px;
 		padding-bottom: 15px;
-
-		width: 400px;
 	}
 
 	.office-title a {
@@ -158,6 +156,17 @@
 
 	.burger {
 		right: 25px;
+	}
+
+	/* main */
+	.featured {
+		margin-top: 80px;
+		margin-bottom: 40px;
+	}
+
+	.way {
+		margin-top: 80px;
+		margin-bottom: 24.14px;
 	}
 
 	/* Footer */
@@ -210,17 +219,20 @@
 
 @media (max-width: 320px) {
 	/* Head */
-	.burger {
-		right: 60px;
-	}
 	.container {
 		justify-content: flex-start;
 	}
 
-	/* Footer */
-	.newsletter::before {
-		display: none;
+	/* Office */
+	.office-title p {
+		width: 100%;
 	}
+	/* Team */
+	.default-title h2 {
+		line-height: 120%;
+		padding-bottom: 25px;
+	}
+	/* Footer */
 	.newsletter p {
 		padding-bottom: 15px;
 	}
