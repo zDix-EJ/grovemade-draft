@@ -168,7 +168,11 @@
 		margin-top: 80px;
 		margin-bottom: 24.14px;
 	}
-
+	/* Space */
+	.work-spaces {
+		display: grid;
+		gap: 45px;
+	}
 	/* Footer */
 	.form-box {
 		display: grid;
